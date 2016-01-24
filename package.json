@@ -2,6 +2,7 @@
   "name": "webpack-intro",
   "version": "0.0.1",
   "description": "Example Webpack application built in iterations across branches",
+  "main": "dist/main.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ianmstew/webpack-intro.git"
