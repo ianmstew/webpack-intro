@@ -7,3 +7,8 @@ Example Webpack application built in iterations across branches.
 * `webpack src/main.js build/main.js` (basic)
 * `webpack` (default config)
 * `webpack --watch` (watch)
+
+`02-dev-server`
+
+* `webpack-dev-server` (dev server)
+* `webpack-dev-server --config webpack.config-1.js` (sourcemaps)
