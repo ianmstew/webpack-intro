@@ -20,3 +20,7 @@ Example Webpack application built in iterations across branches.
 `04-css`
 
 * `webpack-dev-server --config webpack.config-3.js` (css)
+
+`05-files`
+
+* `webpack-dev-server --config webpack.config-4.js` (file)

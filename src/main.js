@@ -1,5 +1,6 @@
 import * as weekdays from './util/weekdays.js';
 import './assets/main.css';
+import webpackImage from './assets/webpack.svg';
 
 const html = [
     '<ul>',
@@ -10,3 +11,10 @@ const html = [
 
 const main = document.getElementsByTagName('main')[0];
 main.innerHTML = html;
+
+const imageEl = document.createElement('img');
+imageEl.src = webpackImage;
+imageEl.className = 'heading-image';
+
+const h1 = document.getElementsByTagName('h1')[0];
+h1.insertBefore(imageEl, h1.firstChild);
