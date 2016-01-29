@@ -1,4 +1,5 @@
 import * as weekdays from './util/weekdays.js';
+import './assets/main.css';
 
 const html = [
     '<ul>',
