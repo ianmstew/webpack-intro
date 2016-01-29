@@ -23,10 +23,9 @@ module.exports = {
             },
             {
                 test: /\.(?:jpe?g|png|gif|svg)$/,
-                loader: 'url-loader',
+                loader: 'file-loader',
                 query: {
                     name: 'build/images/[name].[ext]',
-                    limit: 5000,
                 },
             },
         ],
