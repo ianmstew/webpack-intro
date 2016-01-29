@@ -16,3 +16,7 @@ Example Webpack application built in iterations across branches.
 `03-babel`
 
 * `webpack-dev-server --config webpack.config-2.js` (babel)
+
+`04-css`
+
+* `webpack-dev-server --config webpack.config-3.js` (css)
