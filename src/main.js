@@ -1,11 +1,11 @@
-var weekdays = require('./util/weekdays');
+import * as weekdays from './util/weekdays.js';
 
-var html = [
+const html = [
     '<ul>',
         '<li>' + weekdays.name(4) + ' is the 4th day of the week',
         '<li>Tuesday is the ' + weekdays.number('Tuesday') + 'th day of the week',
     '</ul>'
 ].join('');
 
-var main = document.getElementsByTagName('main')[0];
+const main = document.getElementsByTagName('main')[0];
 main.innerHTML = html;

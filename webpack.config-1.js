@@ -5,5 +5,5 @@ module.exports = {
     output: {
         filename: 'build/main.js',
     },
-    devtool: '#source-map'
+    devtool: '#source-map',
 };
