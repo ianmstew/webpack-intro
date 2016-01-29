@@ -28,3 +28,7 @@ Example Webpack application built in iterations across branches.
 `06-data-urls`
 
 * `webpack-dev-server --config webpack.config-5.js` (url)
+
+`07-minify`
+
+* `webpack-dev-server --config webpack.config-6.js` (minify)
